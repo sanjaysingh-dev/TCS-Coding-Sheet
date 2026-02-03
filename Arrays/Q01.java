@@ -3,7 +3,7 @@
 package Arrays;
 import java.util.*;
 
-public class Q1 {
+public class Q01 {
 
  public static int MinElement(int a[]){
     int N = a.length;

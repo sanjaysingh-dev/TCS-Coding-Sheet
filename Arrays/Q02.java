@@ -1,8 +1,9 @@
 // Problem Statement: Given an array, we have to find the largest element in the array.
 
+package Arrays;
 import java.util.*;
 
-public class Q2{
+public class Q02{
 
     static int MaxElement(int a[]){
 

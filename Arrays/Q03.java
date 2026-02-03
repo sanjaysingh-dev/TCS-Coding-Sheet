@@ -3,9 +3,11 @@
 package Arrays;
 import java.util.*;
 
-public class Q3{
+public class Q03{
 
-  static void MinMax(int a[], int N){
+  static void MinMax(int a[]){
+
+   int N = a.length;
 
     if(N<2){
      System.out.println(-1);
@@ -31,7 +33,7 @@ public class Q3{
      for(int i=0;i<N;i++)
       arr[i] = sc.nextInt();
     
-    MinMax(arr,N);
+    MinMax(arr);
     sc.close();
   }
 }
