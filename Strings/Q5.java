@@ -10,7 +10,7 @@ public class Q5 {
         String S = sc.nextLine();
         StringBuilder sb = new StringBuilder();
 
-        for(int i=0;i<S.length()-1;i++){
+        for(int i=0;i<S.length();i++){
             if(S.charAt(i)!=' ')
                  sb.append(S.charAt(i));
         }
